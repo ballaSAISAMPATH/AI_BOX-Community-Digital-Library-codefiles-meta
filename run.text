@@ -6,3 +6,5 @@ ollama pull llama3.2
  python setup_offline_admin.py
 streamlit run admin_app.py --server.port 8501
 streamlit run student_app_multilingual.py --server.port 8502
+
+end

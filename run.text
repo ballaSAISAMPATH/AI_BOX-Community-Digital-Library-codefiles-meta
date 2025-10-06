@@ -1,0 +1,8 @@
+winget install Ollama.Ollama
+pip install langchain langchain-community langchain-ollama pypdf2 chromadb sentence-transformers
+pip install langchain langchain-community pypdf2 chromadb sentence-transformers
+ollama pull llama3.2
+ ollama list
+ python setup_offline_admin.py
+streamlit run admin_app.py --server.port 8501
+streamlit run student_app_multilingual.py --server.port 8502

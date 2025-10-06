@@ -1,0 +1,15 @@
+streamlit>=1.28.0
+langchain-community
+chromadb
+sentence-transformers
+torch
+transformers
+datasets
+sentencepiece
+pyttsx3          # OFFLINE TTS (replaces gTTS)
+pygame
+soundfile
+langdetect
+pandas
+pyarrow>=10.0.0
+requests          # Only for localhost Ollama
